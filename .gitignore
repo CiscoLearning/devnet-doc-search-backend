@@ -1,0 +1,6 @@
+**/*.class
+.vscode
+venv
+docs-index
+dict/glove.6B.300d.txt
+**/__pycache__
