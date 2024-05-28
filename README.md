@@ -7,8 +7,8 @@ search engine.  Due to the index's size, it is NOT included here.
 
 The index generation code requires a modern Java compiler and runtime engine.
 
-Before building the index, download the `glove.6B.300d.txt` dictionary file
-(e.g., from https://www.kaggle.com/datasets/thanakomsn/glove6b300dtxt) and place
+Before building the index, download the `glove.6B.300d.txt` vector file
+(e.g., from <https://nlp.stanford.edu/data/glove.6B.zip>) and place
 it in the `dict` subdirectory.  This file must be named `glove.6B.300d.txt`.
 
 ### Compile the Classes
@@ -23,6 +23,6 @@ the command `scripts/generate-index.sh SOURCE_DIR INDEX_DIR` where `SOURCE_DIR` 
 path to the files to index and `INDEX_DIR` is the directory into which the index will
 be placed.
 
-When configuring the frontend, point to the index location.  While you won't have the
-same documentation that the exam has, you can get a good sense of how the search engine
-works and how its results look.
+Copy this directory into the frontend directory, and then configure the frontend, point to
+the index location.  While you won't have the same documentation that the exam has,
+you can get a good sense of how the search engine works and how its results look.
